@@ -10,7 +10,6 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "deploy": "gclout app deploy --quite",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "gcp-build": "npm run build",
